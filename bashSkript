@@ -1,3 +1,4 @@
 for index in {1..5}; do
-	tauch SomeFile_"index"
+	touch SomeFile_"index"
 done
+
