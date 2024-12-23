@@ -1,4 +1,5 @@
 for index in {1..5}; do
-	touch SomeFile_"index"
+	touch SomeFile_$index
+	echo "created SomeFile_$index"
 done
 
